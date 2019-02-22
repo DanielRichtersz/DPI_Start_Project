@@ -14,6 +14,8 @@ import javax.swing.border.EmptyBorder;
 
 import model.bank.*;
 import model.loan.LoanRequest;
+import rabbitmq.RabbitMQListener;
+import rabbitmq.RabbitMQQueues;
 
 
 public class LoanBrokerFrame extends JFrame {
@@ -31,6 +33,8 @@ public class LoanBrokerFrame extends JFrame {
 			public void run() {
 				try {
 					LoanBrokerFrame frame = new LoanBrokerFrame();
+					RabbitMQListener rabbitMQListener = new RabbitMQListener();
+					rabbitMQListener.ListenTest(RabbitMQQueues.GetClientToBrokerQueueName());
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();

@@ -10,5 +10,38 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="DPI_Start_Project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../amqp-client-5.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/integration/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/jcl-over-slf4j/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/jcl-over-slf4j/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/jul-to-slf4j/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/jul-to-slf4j/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/log4j-over-slf4j/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/log4j-over-slf4j/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-api/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-api/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-ext/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-ext/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-jcl/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-jcl/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-jdk14/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-jdk14/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-log4j12/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-log4j12/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-migrator/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-migrator/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-nop/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-nop/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-simple/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../slf4j-1.6.0.zip!/slf4j-1.6.0/slf4j-simple/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

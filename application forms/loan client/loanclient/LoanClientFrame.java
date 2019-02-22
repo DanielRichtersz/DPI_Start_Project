@@ -18,6 +18,8 @@ import javax.swing.border.EmptyBorder;
 
 import messaging.requestreply.RequestReply;
 import model.loan.*;
+import rabbitmq.RabbitMQQueues;
+import rabbitmq.RabbitMQSender;
 
 public class LoanClientFrame extends JFrame {
 
@@ -34,6 +36,7 @@ public class LoanClientFrame extends JFrame {
 	private JLabel lblNewLabel;
 	private JLabel lblNewLabel_1;
 	private JTextField tfTime;
+
 
 	/**
 	 * Create the frame.
@@ -114,6 +117,8 @@ public class LoanClientFrame extends JFrame {
 				LoanRequest request = new LoanRequest(ssn,amount,time);
 				listModel.addElement( new RequestReply<LoanRequest,LoanReply>(request, null));	
 				// to do:  send the JMS with request to Loan Broker
+				RabbitMQSender rabbitMQSender = new RabbitMQSender();
+				rabbitMQSender.Send(RabbitMQQueues.GetClientToBrokerQueueName(), request.toString());
 			}
 		});
 		GridBagConstraints gbc_btnQueue = new GridBagConstraints();
